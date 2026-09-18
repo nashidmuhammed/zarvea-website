@@ -22,7 +22,7 @@ const productsData = [
     description: "Known as the Queen of Spices, our green cardamom pods are hand-picked at optimum maturity, preserving high essential oil content, vibrant emerald hue, and an intense sweet-floral aroma.",
     grades: "Alleppey Green Extra Bold (AGEB - 8mm+), AGB (7-8mm), Jumbo Green",
     moisture: "Max 10-11%",
-    packaging: "250g, 500g, 1kg aroma-lock pouches, 10kg/25kg vacuum-sealed master cartons",
+    packaging: "Bulk supply only (1 Ton & above) — 10kg/25kg vacuum-sealed master cartons",
     applications: "Gourmet culinary, bakery, luxury confectionery, teas, perfumes, ayurvedic wellness"
   },
   {
@@ -36,7 +36,7 @@ const productsData = [
     description: "The revered King of Spices from its true historical homeland. Sun-dried berries offering a robust pungency, high piperine percentage, and earthy floral complexity.",
     grades: "Malabar Garbled (MG-1), Tellicherry Extra Bold (TGSEB), Whole & Crushed",
     moisture: "Max 11.5%",
-    packaging: "Multi-ply kraft bags (25kg, 50kg), custom retail canisters, vacuum bulk bags",
+    packaging: "Bulk supply only (1 Ton & above) — 25kg/50kg multi-ply kraft bags & bulk sacks",
     applications: "Meat seasoning, universal culinary seasoning, pharmaceutical extracts, spice blends"
   },
   {
@@ -50,7 +50,7 @@ const productsData = [
     description: "Naturally harvested tree bark cured to develop warm, delicate sweetness without the harshness of industrial cassia. Rich in natural cinnamaldehyde oils.",
     grades: "Cinnamon Quills (C5 Extra Special, M4), Cut Sticks, Ground Powder",
     moisture: "Max 12%",
-    packaging: "Bundles in protective cartons, food-grade tin ties, 20kg bulk export boxes",
+    packaging: "Bulk supply only (1 Ton & above) — 20kg/25kg export master cartons",
     applications: "Fine baking, dessert infusions, spiced beverages, mulled wines, curries"
   },
   {
@@ -64,7 +64,7 @@ const productsData = [
     description: "Hand-harvested unexpanded flower buds with plump crowns and reddish-brown stems, boasting concentrated eugenol oil content for an intense, warming sensation.",
     grades: "Hand-picked Hand-sorted (HPS Grade 1), Whole Cleaned Cloves",
     moisture: "Max 10%",
-    packaging: "Hermetic barrier bags, 10kg & 25kg export cartons",
+    packaging: "Bulk supply only (1 Ton & above) — 10kg & 25kg hermetic barrier export cartons",
     applications: "Beverages, pickling, oral care, meat marinades, biryani & garam masala"
   },
   {
@@ -78,7 +78,7 @@ const productsData = [
     description: "Whole oval seed kernels with distinct marbling and sweet nutty aroma, harvested from pesticide-conscious hill agroforests.",
     grades: "Sound Inshell, Shelled Whole ABCD Grade, Clean Sorted",
     moisture: "Max 8%",
-    packaging: "Jute bags with inner poly liner, retail zip pouches, 25kg bulk bags",
+    packaging: "Bulk supply only (1 Ton & above) — 25kg jute bags with inner poly liners",
     applications: "Cream sauces, baking, eggnog, savory cheese preparations, herbal formulations"
   },
   {
@@ -92,7 +92,7 @@ const productsData = [
     description: "Deep golden-orange rhizomes with high natural curcumin levels, harvested from nutrient-rich organic soils and cured naturally without artificial polishes.",
     grades: "Alleppey Finger Turmeric (High Curcumin 4.5% - 5.5%), Ultra-Fine Ground",
     moisture: "Max 10%",
-    packaging: "25kg / 50kg PP bags with liners, 1kg retail nitrogen-flushed packs",
+    packaging: "Bulk supply only (1 Ton & above) — 25kg / 50kg PP bags with inner liners",
     applications: "Health supplements, golden milk, natural food colorant, base spice blends"
   },
   {
@@ -106,7 +106,7 @@ const productsData = [
     description: "Cold-pressed from the fresh white meat of Lakshadweep island coconuts. Crystal clear, water-white, unrefined, and zero chemical bleach with subtle natural coconut fragrance.",
     grades: "100% Raw Extra Virgin Cold-Pressed, Centrifuged Grade A",
     moisture: "Max 0.1% (Ultra-low moisture for extended shelf life)",
-    packaging: "250ml / 500ml / 1L dark glass bottles, 200L food-grade drums, IBC totes",
+    packaging: "Bulk supply only (1 Ton & above) — 200L food-grade steel drums & IBC totes",
     applications: "Direct dietary consumption, keto cooking, premium hair/skin care, infant care"
   },
   {
@@ -120,7 +120,7 @@ const productsData = [
     description: "Full-bodied CTC black tea blend yielding a rich reddish-amber liquor, brisk briskness, and invigorating depth ideal for traditional milk chai and iced teas.",
     grades: "BOP (Broken Orange Pekoe), PD (Pekoe Dust), Super Red Dust",
     moisture: "Max 6.5%",
-    packaging: "500g vacuum foil packs, 30kg multi-layer kraft paper sacks",
+    packaging: "Bulk supply only (1 Ton & above) — 30kg multi-layer kraft paper sacks",
     applications: "Cafes, hospitality, daily milk tea brewing, iced beverage concentrates"
   },
   {
@@ -134,7 +134,7 @@ const productsData = [
     description: "Artisanal high-elevation orthodox tea leaves, carefully rolled to preserve delicate floral undertones, golden tips, and antioxidant richness.",
     grades: "FTGFOP1 (Fine Tippy Golden Flowery Orange Pekoe), Green Tea Orthodox",
     moisture: "Max 5.5%",
-    packaging: "Airtight metal caddies, 100g luxury pouches, 20kg moisture-barrier tea chests",
+    packaging: "Bulk supply only (1 Ton & above) — 20kg moisture-barrier export tea chests",
     applications: "Specialty tea salons, wellness infusions, single-estate tea menus"
   },
   {
@@ -148,7 +148,7 @@ const productsData = [
     description: "Slow-roasted using shade-grown Malabar beans. Delivers a thick crema, cocoa-caramel fragrance, and smooth lingering finish without astringency.",
     grades: "Pure Filter Grind (80/20 & 100% Pure variants), Espresso Fine Grind",
     moisture: "Max 3.5%",
-    packaging: "250g & 500g one-way degassing valve foil bags, 25kg bulk barrels",
+    packaging: "Bulk supply only (1 Ton & above) — 25kg bulk barrels & multi-ply sacks",
     applications: "South Indian filter coffee, commercial espresso machines, cold brew steep"
   },
   {
@@ -162,7 +162,7 @@ const productsData = [
     description: "Carefully graded green raw coffee beans and whole roasted beans grown under the tropical forest canopies of the Western Ghats.",
     grades: "Robusta Parchment AB, Robusta Cherry AA, Arabica Plantation A",
     moisture: "Max 11.5% (Green beans)",
-    packaging: "60kg GrainPro lined jute bags, 1kg retail roasted valve bags",
+    packaging: "Bulk supply only (1 Ton & above) — 60kg GrainPro lined jute bags",
     applications: "Artisan roasters, green coffee import houses, specialty blends"
   }
 ];
