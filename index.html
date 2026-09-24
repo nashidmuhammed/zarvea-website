@@ -1328,7 +1328,7 @@
   </div>
 
   <!-- FOOTER SECTION -->
-  <footer class="bg-[#020d09] border-t border-amber-500/20 text-slate-300 pt-16 pb-12 px-4 sm:px-6">
+  <footer class="bg-[#020d09] border-t border-amber-500/20 text-slate-300 pt-16 pb-20 sm:pb-16 px-4 sm:px-6">
     <div class="max-w-7xl mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
         <!-- Brand Summary Column -->
@@ -1404,9 +1404,22 @@
       </div>
 
       <!-- Copyright Bar -->
-      <div class="pt-8 border-t border-emerald-950 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-emerald-300/50">
-        <p>&copy; 2026 ZARVEA Natural Spices. All Rights Reserved. Crafted with nature's authenticity.</p>
-        <div class="flex items-center gap-6">
+      <div class="pt-8 border-t border-emerald-950 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-emerald-300/50">
+        <p class="text-center md:text-left">&copy; 2026 ZARVEA Natural Spices. All Rights Reserved.</p>
+
+        <!-- Company Credit: Glexion -->
+        <a href="https://glexion.com" target="_blank" rel="noopener noreferrer" class="glexion-badge group" title="Visit Glexion — Web Design & Digital Solutions" aria-label="Crafted by Glexion">
+          <span class="text-[11px] sm:text-xs text-emerald-200/70 group-hover:text-amber-200/90 transition-colors font-medium">Crafted by</span>
+          <span class="inline-flex items-center gap-1.5">
+            <img src="assets/logos/glexion-icon-master.png" alt="Glexion Logo" class="glexion-logo w-4 h-4 object-contain" width="16" height="16" />
+            <span class="glexion-brand text-xs">Glexion</span>
+          </span>
+          <svg class="glexion-arrow w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+          </svg>
+        </a>
+
+        <div class="flex items-center gap-6 sm:pr-24 lg:pr-32">
           <a href="#contact" class="hover:text-amber-300 transition-colors">Inquire Online</a>
           <a href="#" class="hover:text-amber-300 transition-colors">Back to Top &uarr;</a>
         </div>

@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initContactForm();
   initScrollAnimations();
   initFaqPage();
+  initWhatsAppWidgetCollapse();
 });
 
 // Product Master Database matching official brand brochure
@@ -549,4 +550,35 @@ function initFaqPage() {
       }, 200);
     }
   }
+}
+
+// Auto-collapse WhatsApp text pill when footer is in view
+function initWhatsAppWidgetCollapse() {
+  const footer = document.querySelector('footer');
+  const waTooltip = document.querySelector('aside[aria-label="WhatsApp Quick Inquiry"] > a');
+
+  if (!footer || !waTooltip) return;
+
+  waTooltip.style.transition = 'all 0.4s cubic-bezier(0.16, 1, 0.3, 1)';
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        waTooltip.style.opacity = '0';
+        waTooltip.style.transform = 'translateX(15px) scale(0.92)';
+        waTooltip.style.pointerEvents = 'none';
+        waTooltip.style.visibility = 'hidden';
+      } else {
+        waTooltip.style.opacity = '';
+        waTooltip.style.transform = '';
+        waTooltip.style.pointerEvents = '';
+        waTooltip.style.visibility = '';
+      }
+    });
+  }, {
+    root: null,
+    threshold: 0.08
+  });
+
+  observer.observe(footer);
 }
